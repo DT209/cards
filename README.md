@@ -1,4 +1,4 @@
-# cards
+# Cards
 Server Code Challenge for Robots and Pencils
 
 ## Original Instructions

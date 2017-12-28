@@ -27,7 +27,8 @@ Specifically you will want to review and run com.dt209.cards.DeckTest
 * No extra code should be written to support testing
 
 # Design Decisions
-* Cards should be immutable as they are a well known construct
+* Cards should be immutable as they are a well known construct, 
+therefore Cards are an inner class of Deck instead of a standalone class. 
 
 # Other Considerations
 * There is no "interface" or API to this code as it is not required

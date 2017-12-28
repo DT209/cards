@@ -1,5 +1,6 @@
 package com.dt209.cards;
 
+import javax.smartcardio.Card;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -16,8 +17,8 @@ public class Deck {
      * Create a new un-shuffled Standard 52-card deck.
      */
     public Deck() {
-        for (Rank rank: Rank.values()) {
-            for (Suit suit: Suit.values()) {
+        for (Suit suit: Suit.values()) {
+            for (Rank rank: Rank.values()) {
                 deck.add(new Card(suit, rank));
             }
         }

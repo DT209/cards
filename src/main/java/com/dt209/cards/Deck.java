@@ -1,6 +1,5 @@
 package com.dt209.cards;
 
-import javax.smartcardio.Card;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

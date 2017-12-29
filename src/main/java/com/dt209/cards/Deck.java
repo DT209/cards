@@ -32,6 +32,7 @@ public class Deck {
     }
 
     /**
+     * @TODO have question out to see if this is the correct implementation. Basically what does "deal" mean in the requirements doc? Give one card from the deck, always the first card (that is what I implemented) or give each card in the deck one at a time?
      * @return first card in the deck
      */
     public Card dealFirst(){
